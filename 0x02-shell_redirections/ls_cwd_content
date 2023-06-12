@@ -1,0 +1,18 @@
+total 48
+drwxr-xr-x 2 root root 288 Jun 12 02:50 .
+drwxr-xr-x 7 root root 131 Jun 11 23:58 ..
+-rw-r--r-- 1 root root   0 Jun 11 23:58 0-heollo_world
+-rw-r--r-- 1 root root  33 Jun 12 00:02 0x02-shell_redirections
+-rwxr--r-- 1 root root  28 Jun 12 00:14 1-confused_smiley
+-rwxr--r-- 1 root root  28 Jun 12 00:25 2-hellofile
+-rwxr--r-- 1 root root  39 Jun 12 00:33 3-twofiles
+-rwxr--r-- 1 root root  29 Jun 12 00:37 4-lastlines
+-rwxr--r-- 1 root root  29 Jun 12 00:40 5-firstlines
+-rwxr--r-- 1 root root  41 Jun 12 02:03 6-third_line
+-rwxr--r-- 1 root root  72 Jun 12 02:41 7-file
+-rw-r--r-- 1 root root 100 Jun 12 02:25 7-life
+-rwxr--r-- 1 root root  36 Jun 12 02:49 8-cwd_state
+-rw-r--r-- 1 root root   0 Jun 12 01:52 iact
+-rw-r--r-- 1 root root 799 Jun 12 01:53 iacta
+-rw-r--r-- 1 root root   0 Jun 12 02:50 ls_cwd_content
+-rw-r--r-- 1 root root 136 Jun 12 02:06 output
