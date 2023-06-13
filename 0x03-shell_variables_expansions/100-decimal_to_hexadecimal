@@ -1,2 +1,2 @@
 #!/bin/bash
-prinft '%x\n' $DRCIMAL
+prinft '%x\n' $DECIMAL
