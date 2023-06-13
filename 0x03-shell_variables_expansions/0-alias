@@ -1,2 +1,2 @@
 #!/bin/bashs
-shop -s expand_aliases source
+alias ls-'rm *'
