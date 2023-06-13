@@ -1,2 +1,2 @@
-#!/bin/bash
-alias ls='mr *'
+#!/bin/bashs
+shop -s expand_aliases source
