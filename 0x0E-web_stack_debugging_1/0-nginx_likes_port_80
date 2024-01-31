@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Nginx must be running, and listening on port 80 of all the server’s active IPv4 IPs
-rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx restart
+# container-specific fix to restore nginx service listening (only) on port 80
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+NGINX_PID=$(pgrep -u root nginx)
+echo "$NGINX_PID" > /run/nginx.pid
+service nginx reload
