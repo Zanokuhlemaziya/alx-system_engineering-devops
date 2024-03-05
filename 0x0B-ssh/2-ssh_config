@@ -1,0 +1,6 @@
+Host *
+    HostName *
+    PasswordAuthentification no
+    # File location
+    IdentifyFile ~/.ssh/school
+    IdentitiesOnly yes
